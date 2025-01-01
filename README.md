@@ -67,19 +67,7 @@ Follow these steps to set up the project locally:
 3. **Delete Books:** Click the delete icon to remove a book from the inventory.
 4. **Search Books:** Use the search bar to find specific books by title, author, or genre.
 
-## Database Schema
 
-- **Books Table:**
-  - `id` (Primary Key)
-  - `title` (VARCHAR)
-  - `author` (VARCHAR)
-  - `genre` (VARCHAR)
-  - `published_date` (DATE)
-  - `quantity` (INTEGER)
-
-- **Authors Table (Optional for relationships):**
-  - `id` (Primary Key)
-  - `name` (VARCHAR)
 
 ## Project Structure
 
@@ -107,8 +95,6 @@ Book_Inventory_DBMS/
 
 ## Future Enhancements
 
-- **User Authentication:**
-  - Add secure login and user roles.
 - **Advanced Filtering:**
   - Implement advanced filters for searching books.
 - **API Integration:**
